@@ -1,0 +1,20 @@
+{
+  "name": "@kuaiproject/docker",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "kuai project docker manager",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc --build ."
+  },
+  "devDependencies": {
+    "@types/dockerode": "^2.5.19",
+    "@types/fs-extra": "^5.1.0"
+  },
+  "dependencies": {
+    "dockerode": "^2.5.8",
+    "fs-extra": "^7.0.1",
+    "got-cjs": "^12.3.1"
+  }
+}
