@@ -1,0 +1,18 @@
+{
+  "name": "@kuaiproject/cli",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "bin": {
+    "kuai": "lib/main.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@kuaiproject/docker": "0.0.1",
+    "commander": "9.4.1",
+    "cross-fetch": "^3.1.5"
+  }
+}
